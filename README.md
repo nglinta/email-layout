@@ -1,2 +1,1 @@
-# social-networking
-React
+email-верстка
