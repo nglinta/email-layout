@@ -4,8 +4,9 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>HTML Template</title>
+  <title>Resident Advisor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       width: 100% !important;
@@ -16,8 +17,13 @@
       line-height: 100%;
     }
 
-    [style*="Open Sans"] {
-      font-family: 'Open Sans', arial, sans-serif !important;
+    [style*="Sarala"] {
+      font-family: "Sarala", Helvetica, Arial, sans-serif !important;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
     }
 
     img {
@@ -40,14 +46,578 @@
       mso-table-lspace: 0pt;
       mso-table-rspace: 0pt;
     }
+
+    .main {
+      max-width: 600px;
+    }
+
+    .ra-logo {
+      padding: 0;
+    }
+
+    .ra-date {
+      margin: 0;
+      font-size: 12px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      color: #a1a1a1;
+      text-align: right;
+    }
+
+    .mobile-padding {
+      padding: 25px;
+      padding-bottom: 50px;
+    }
+
+    .greeting-text {
+      margin: 0;
+      margin-top: 4px;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      color: #a1a1a1;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    .section-title {
+      margin: 0;
+      padding-bottom: 2px;
+      font-size: 16px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      color: #ffffff;
+      line-height: 16px;
+      text-align: left;
+      border-bottom: 2px solid #ff4848;
+    }
+
+    .main-event {
+      margin: 16px 0 0 0;
+      font-size: 24px;
+      line-height: 28px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      text-align: left;
+      font-weight: normal;
+      color: #ffffff;
+    }
+
+    .read {
+      margin: 15px 0 50px 0;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      text-align: left;
+    }
+
+    .podcast-number {
+      margin: 16px 0 0 0;
+      font-size: 19px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      line-height: 28px;
+      text-align: left;
+      font-weight: normal;
+      color: #ffffff;
+    }
+
+    .podcast-impressions {
+      margin: 0;
+      margin-top: 4px;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      color: #a1a1a1;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    .max-width {
+      width: 100%;
+      max-width: 170px;
+    }
+
+    .mobile-wrapper {
+      display: inline-block;
+      max-width: 187px;
+      min-width: 170px;
+      vertical-align: top;
+      width: 100%;
+    }
+
+    .mobile-wrapper-ios {
+      display: inline-block;
+      max-width: 174px;
+      min-width: 170px;
+      vertical-align: top;
+      width: 100%;
+    }
+
+    .footer-logo {
+      display: block;
+      width: 43px;
+      height: 22px;
+      border: 0;
+      font-size: 10px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      color: #a1a1a1;
+    }
+
+    .footer-menu-section {
+      padding: 0 0 25px 0;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      color: #a1a1a1;
+    }
+
+    .footer-menu-heading {
+      margin: 0 0 5px 0;
+      padding: 0 0 2px 0;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: normal;
+      color: #a1a1a1;
+      border-bottom: 2px solid #ff4848;
+    }
+
+    .footer-link td {
+      padding-left: 10px;
+    }
+
+    .subscription {
+      padding: 10px 25px 30px 25px;
+      font-size: 12px;
+      line-height: 16px;
+      font-family: "Sarala", Helvetica, Arial, sans-serif;
+      text-align: left;
+      color: #a1a1a1;
+    }
   </style>
 </head>
 
 <body style="margin: 0; padding: 0;">
-  <div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Стартовый
-    шаблон email-верстки</div>
-  <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ededed">
-
+  <div
+    style="display: none; font-size: 0px; color: #595959; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+    Celebrating 120 Black artists in electronic music</div>
+  <table cellpadding="0" cellspacing="0" width="100%">
+    <!-- CONTAINER -->
+    <tbody>
+      <tr>
+        <td align="center" height="100%" width="100%" bgcolor="#595959">
+          <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#595959" style="max-width: 600px" align="center">
+            <!-- HEADER -->
+            <tbody>
+              <tr>
+                <td class="mobile-padding" cellpadding="0" cellspacing="0" max-width="600" align="center">
+                  <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#595959">
+                    <tbody>
+                      <tr>
+                        <td class="ra-logo" align="left" width="50%" height="43" bgcolor="#595959">
+                          <a href="https://ra.co/?utm_source=newsletter&utm_medium=email&utm_campaign=GlobalNewsletter-2101.6"
+                            target="_blank">
+                            <img
+                              src="https://ci5.googleusercontent.com/proxy/NEbOCm12HzqG20m6u3fEJvAgEM4hbRwO08Ct2DzH6WlAaVgX2E5JiKa8eI2_ReZbttYc=s0-d-e1-ft#https://ra.co/images/ra-logo.png"
+                              alt="RA" width="86" height="43" />
+                          </a>
+                        </td>
+                        <td class="ra-date" align="right" width="50%" height="43" bgcolor="#595959">
+                          <p>Resident Advisor<br />24 January 2021</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- HEADER -->
+              <!-- INTRO -->
+              <tr>
+                <td class="mobile-padding" align="left" width="100%" bgcolor="#595959">
+                  <p class="greeting-text">Welcome to the RA newsletter. Here's the best of this week's news, reviews,
+                    features and podcasts.</p>
+                </td>
+              </tr>
+              <!-- INTRO -->
+              <!-- FEATURES -->
+              <tr>
+                <td align="center" width="100%" bgcolor="#595959">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td class="mobile-padding" align="center" bgcolor="#595959" style="padding: 4px 25px 0 25px;">
+                          <h2 class="section-title">Feature</h2>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <a href="https://ra.co/features/3784?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.3"
+                            target="_blank">
+                            <img src="https://ra.co/images/email/9/ft/926-belarus-under-pressure-mailer.jpg" width="550"
+                              height="364" border="0"
+                              alt="Music Under Pressure: How Minsk's Club Community Thrives Amid Anti-Government Protests" />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <h1 class="main-event">
+                            <a href="https://ra.co/features/3784?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.3"
+                              target="_blank">Music Under Pressure: How Minsk's Club Community Thrives Amid
+                              Anti-Government Protests
+                            </a>
+                          </h1>
+                          <p class="greeting-text">
+                            Spurge Carter speaks to the DJs, producers, promoters and clubs who make up this
+                            extraordinarily dedicated scene.
+                          </p>
+                          <p class="read">
+                            <a href="https://ra.co/features/3784?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.3"
+                              target="_blank" style="color: #ff4848;">Read the feature
+                            </a>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- FEATURES -->
+              <!-- NEWS -->
+              <tr>
+                <td align="center" width="100%" bgcolor="#595959">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td class="mobile-padding" align="center" bgcolor="#595959" style="padding: 4px 25px 0 25px;">
+                          <h2 class="section-title">News</h2>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <a href="https://ra.co/news/74440?utm_source=newsletter&utm_medium=email&utm_campaign=GlobalNewsletter-2101.6"
+                            target="_blank">
+                            <img src="https://ra.co/images/news/2021/ryuichi-sakamoto-03.jpg" width="550" height="364"
+                              border="0" alt="Ryuichi Sakamoto reveals he has undergone treatment for bowel cancer" />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <h1 class="main-event">
+                            <a href="https://ra.co/news/74440?utm_source=newsletter&utm_medium=email&utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Ryuichi Sakamoto reveals he has undergone treatment for bowel cancer
+                            </a>
+                          </h1>
+                          <p class="greeting-text">
+                            It is the beloved Japanese composer's second battle against the disease.
+                          </p>
+                          <p class="read">
+                            <a href="https://ra.co/news/74440?utm_source=newsletter&utm_medium=email&utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank" style="color: #ff4848;">Read more
+                            </a>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- NEWS -->
+              <!-- REVIEW -->
+              <tr>
+                <td align="center" width="100%" bgcolor="#595959">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td colspan="2" class="mobile-padding" align="center" bgcolor="#595959"
+                          style="padding: 4px 25px 0 25px;">
+                          <h2 class="section-title">Review</h2>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <a href="https://ra.co/reviews/33467?utm_source=newsletter&utm_medium=email&utm_campaign=GlobalNewsletter-2101.6"
+                            target="_blank">
+                            <img src="https://ra.co/images/reviews/2021/bicep-isles-cover.jpg" width="550" height="500"
+                              border="0" alt="Bicep - Isles" />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <h1 class="main-event">
+                            <a href="https://ra.co/reviews/33467?utm_source=newsletter&utm_medium=email&utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Bicep - Isles
+                            </a>
+                          </h1>
+                          <p class="greeting-text">
+                            I wasn't blown away the first time I heard Bicep's self-titled debut album.
+                          </p>
+                          <p class="read">
+                            <a href="https://ra.co/reviews/33467?utm_source=newsletter&utm_medium=email&utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank" style="color: #ff4848;">Read more
+                            </a>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- REVIEW -->
+              <!-- PODCAST -->
+              <tr>
+                <td align="center" width="100%" bgcolor="#595959">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td colspan="2" class="mobile-padding" align="center" bgcolor="#595959"
+                          style="padding: 4px 25px 0 25px;">
+                          <h2 class="section-title">RA Podcast</h2>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="left" style="padding: 4px 12px 0 25px;" bgcolor="#595959">
+                          <a href="https://ra.co/podcast/762" target="_blank">
+                            <img src="https://im.ra.co/images/podcast/ra762-peach-cvr.jpg" width="270" height="270"
+                              border="0" alt="RA.762 Peach" />
+                          </a>
+                        </td>
+                        <td class="mobile-padding" align="right" style="padding: 4px 25px 0 12px;" bgcolor="#595959">
+                          <a href="https://ra.co/podcast/761" target="_blank">
+                            <img src="https://im.ra.co/images/podcast/ra761-forest-mgmt-cvr.jpg" width="270"
+                              height="270" border="0" alt="RA.761 Forest Management" />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <h3 class="podcast-number">
+                            <a href="https://ra.co/podcast/762" target="_blank">RA.762 Peach
+                            </a>
+                          </h3>
+                          <p class="podcast-impressions">
+                            Bright and cheerful tunes from the irrepressible London DJ.
+                          </p>
+                          <p class="read">
+                            <a href="https://ra.co/podcast/762" target="_blank" style="color: #ff4848;">Read more
+                            </a>
+                          </p>
+                        </td>
+                        <td class="mobile-padding" align="center" style="padding: 4px 25px 0 25px;" bgcolor="#595959">
+                          <h3 class="podcast-number">
+                            <a href="https://ra.co/podcast/761" target="_blank">RA.761 Forest Management
+                            </a>
+                          </h3>
+                          <p class="podcast-impressions">
+                            Imaginative downtempo and ambient to bring in the New Year.
+                          </p>
+                          <p class="read">
+                            <a href="https://ra.co/podcast/761" target="_blank" style="color: #ff4848;">Read more
+                            </a>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- PODCAST -->
+              <!-- FOOTER -->
+              <tr>
+                <td class="mobile-padding" align="center" bgcolor="#595959"
+                  style="font-size: 0; padding: 0 25px 5px 25px;">
+                  <div class="mobile-wrapper">
+                    <table class="max-width" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="footer-logo" align="left" style="padding: 5px 0 32px 0;">
+                            <a href="https://ra.co/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">
+                              <img src="https://ra.co/images/ra-logo.png" width="43" height="22" border="0"
+                                alt="RA - Resident Advisor" />
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="mobile-wrapper-ios">
+                    <table class="max-width" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="footer-logo" align="left" valign="top" style="padding: 0;"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="mobile-wrapper">
+                    <table class="max-width" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="footer-logo" align="left" valign="top" style="padding: 0;"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" bgcolor="#595959" style="font-size: 0; padding: 0 25px 32px 25px;"
+                  class="mobile-padding">
+                  <div class="mobile-wrapper">
+                    <table class="max-width" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="footer-menu-section" align="left" valign="top" bgcolor="#595959">
+                            <h2 class="footer-menu-heading">Events</h2>
+                            <a href="https://ra.co/events?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Listings</a><br />
+                            <a href="https://ra.co/pro/submit-event.aspx?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Submit event</a><br />
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="mobile-wrapper-ios">
+                    <table class="max-width" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="footer-menu-section" align="left" valign="top" bgcolor="#595959">
+                            <h2 class="footer-menu-heading">Music</h2>
+                            <a href="https://ra.co/podcast?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">RA Podcast</a><br />
+                            <a href="https://ra.co/reviews?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Reviews</a><br />
+                            <a href="https://ra.co/mix-of-the-day?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Mix Of The Day</a><br />
+                            <a href="https://ra.co/playlists?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Playlists</a><br />
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="mobile-wrapper">
+                    <table class="max-width" align="right" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="footer-menu-section" align="left" valign="top" bgcolor="#595959">
+                            <h2 class="footer-menu-heading">Magazine</h2>
+                            <a href="https://ra.co/features?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Features</a><br />
+                            <a href="https://ra.co/films?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">Films</a><br />
+                            <a href="https://ra.co/exchange?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">RA Exchange</a><br />
+                            <a href="https://ra.co/news?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                              target="_blank">News</a><br />
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <!-- <tr>
+                <td class="mobile-padding" align="left" width="100%" bgcolor="#595959">
+                  <br/>
+                  <a href="https://www.youtube.com/residentadvisor" target="_blank">
+                    <img src="https://www.residentadvisor.net/images/email/ico-youtube.png" width="30" height="30"
+                      border="0" alt="RA on YouTube" style="width: 30px; height: 30px;" />
+                  </a>
+                  &nbsp;&nbsp;
+                  <a href="https://facebook.com/residentadvisor" target="_blank">
+                    <img src="https://www.residentadvisor.net/images/email/ico-facebook.png" width="30" height="30"
+                      border="0" alt="RA on Facebook" style="width: 30px; height: 30px;" />
+                  </a>
+                  &nbsp;&nbsp;
+                  <a href="https://twitter.com/residentadvisor" target="_blank">
+                    <img src="https://www.residentadvisor.net/images/email/ico-twitter.png" width="30" height="30"
+                      border="0" alt="RA on Twitter" style="width: 30px; height: 30px;" />
+                  </a>
+                  &nbsp;&nbsp;
+                  <a href="https://instagram.com/resident_advisor" target="_blank">
+                    <img src="https://www.residentadvisor.net/images/email/ico-instagram.png" width="30" height="30"
+                      border="0" alt="RA on Instagram" style="width: 30px; height: 30px;" />
+                  </a>
+                  &nbsp;&nbsp;
+                  <a href="https://soundcloud.com/resident-advisor" target="_blank">
+                    <img src="https://www.residentadvisor.net/images/email/ico-soundcloud.png" width="30" height="30"
+                      border="0" alt="RA on Soundcloud" style="width: 30px; height: 30px;" />
+                  </a>
+                </td>
+              </tr> -->
+              <tr>
+                <td class="mobile-padding" align="left" width="100%" bgcolor="#595959">
+                  <table class="footer-link">
+                    <tr>
+                      <td>
+                        <a href="https://www.youtube.com/residentadvisor" target="_blank">
+                          <img src="https://www.residentadvisor.net/images/email/ico-youtube.png" width="30" height="30"
+                            border="0" alt="RA on YouTube" style="width: 30px; height: 30px;" />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://facebook.com/residentadvisor" target="_blank">
+                          <img src="https://www.residentadvisor.net/images/email/ico-facebook.png" width="30"
+                            height="30" border="0" alt="RA on Facebook" style="width: 30px; height: 30px;" />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://twitter.com/residentadvisor" target="_blank">
+                          <img src="https://www.residentadvisor.net/images/email/ico-twitter.png" width="30" height="30"
+                            border="0" alt="RA on Twitter" style="width: 30px; height: 30px;" />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://instagram.com/resident_advisor" target="_blank">
+                          <img src="https://www.residentadvisor.net/images/email/ico-instagram.png" width="30"
+                            height="30" border="0" alt="RA on Instagram" style="width: 30px; height: 30px;" />
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://soundcloud.com/resident-advisor" target="_blank">
+                          <img src="https://www.residentadvisor.net/images/email/ico-soundcloud.png" width="30"
+                            height="30" border="0" alt="RA on Soundcloud" style="width: 30px; height: 30px;" />
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                  &nbsp;&nbsp;
+                </td>
+              </tr>
+              <tr>
+                <td class="mobile-padding subscription" align="left" width="100%" bgcolor="#595959">
+                  <p style="margin: 0;">
+                    You are subscribed to the RA Newsletter. To remove yourself, simply
+                    <a href="##unsubscribe-link##">update your subscription options</a>. Alternatively, if you have been
+                    forwarded the RA Newsletter and would like to receive it,
+                    <a href="https://www.residentadvisor.net/register?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                      target="_blank">subscribe</a> today.
+                    <br />
+                    <br /> Copyright © Resident Advisor Ltd. All rights reserved.
+                    <br />
+                    <a href="#" style="color: #a1a1a1; cursor: text; text-decoration: none;">26 Hertford Road, London,
+                      N1 5QT, United Kingdom
+                    </a>
+                    <br />
+                    <br />
+                    <a href="https://www.residentadvisor.net/about?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                      target="_blank">About
+                    </a> /
+                    <a href="https://www.residentadvisor.net/about/advertising?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=GlobalNewsletter-2101.6"
+                      target="_blank">Advertise
+                    </a>
+                  </p>
+                </td>
+              </tr>
+              <!-- FOOTER -->
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </body>
 
